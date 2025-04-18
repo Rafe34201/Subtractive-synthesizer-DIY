@@ -2,7 +2,7 @@
 
 
 Project: Subtractive synthesizer DIY
-Author: 洪睿甫
+Author: 洪睿甫 
 Version: 1.0.0
 
 這是一台減法軟體合成器
