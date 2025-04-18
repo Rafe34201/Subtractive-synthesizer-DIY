@@ -40,12 +40,23 @@ Version: 1.0.0
 
 ## 安裝與開啟：
 
-安裝之前需下載以下必要套件，接著直接執行程式就行了：
+① 安裝 Python（如果還沒裝）:
+
+- 到 https://python.org 下載 Python 3.10 以上版本，安裝時記得勾 Add Python to PATH
+
+② 安裝必要套件:
+- 開啟終端機（Mac/Linux）或 cmd（Windows） 輸入：
 
 ```python
 
-pip install  numpy  sounddevice  mido  python-rtmidi  matplotlib  scipy
+pip install numpy sounddevice mido python-rtmidi matplotlib scipy
 
+```
+
+③ 插入mid控制器後，執行即可
+
+```
+python synth.py
 ```
 
 
