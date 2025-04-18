@@ -1,9 +1,7 @@
 import numpy as np
 from scipy.signal import square, sawtooth, butter, filtfilt
-import matplotlib.pyplot as plt  # 創造 ADSR 圖
 import sounddevice as sd  # 發出聲音
 from sounddevice import OutputStream
-import sys
 import tkinter as tk
 from tkinter import ttk
 import os.path
@@ -11,7 +9,6 @@ import mido
 import queue
 import threading
 import os
-from functools import partial
 
 
 
