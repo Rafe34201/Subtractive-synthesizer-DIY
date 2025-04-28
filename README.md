@@ -40,13 +40,34 @@ Version: 1.0.0
 
 ---
 
-## 安裝與開啟：
+## 安裝與開啟
 
-① 安裝 Python（如果還沒裝）:
+### 1. 安裝 Python
+- 到 [Python 官方網站](https://python.org) 下載 Python 3.10 以上版本，安裝時記得勾選 **Add Python to PATH**。
 
-- 到 https://python.org 下載 Python 3.10 以上版本，安裝時記得勾 Add Python to PATH
+     - **如果已經安裝 Python 卻沒有 Add Python to PATH**
+        1. **找到 Python 安裝位置**  
+           通常會在以下路徑：  
+           `C:\Users\你的使用者名稱\AppData\Local\Programs\Python\Python3x`
+        
+        2. **複製這兩個路徑：**
+           - **Python 主程式路徑**：  
+             `C:\Users\你\AppData\Local\Programs\Python\Python311`
+           - **Scripts 子資料夾**（pip 就在這裡）：  
+             `C:\Users\你\AppData\Local\Programs\Python\Python311\Scripts`
+        
+        3. **設定環境變數**
+            - 開啟「開始」選單 → 搜尋 **環境變數** 或 **Edit the system environment variables**
+            - 點選右下角的「**環境變數 (Environment Variables)**」
+            - 找到「系統變數 (System Variables)」 → 選擇 **Path** → 點選「編輯」
+            - 點選「新增」，把剛剛複製的兩個路徑貼上去
+            - 點選「確定」，關閉所有視窗
 
-② 安裝必要套件:
+        4. **重啟 CMD**
+
+
+
+### 2. 安裝必要套件:
 - 開啟終端機（Mac/Linux）或 cmd（Windows） 輸入：
 
 ```python
@@ -55,7 +76,7 @@ pip install numpy sounddevice mido python-rtmidi matplotlib scipy
 
 ```
 
-③ 插入mid控制器後，執行即可
+### 3, 插入mid控制器後，執行即可
 
 ```
 python synth.py
