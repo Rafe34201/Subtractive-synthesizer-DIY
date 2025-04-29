@@ -22,7 +22,7 @@ Version: 1.0.0
 - 支援五種波形：
   -  Sin / Square / Saw / Triangle / noise
 
-- 內涵四種濾波器：
+- 內含四種濾波器：
   - highpass / lowpass / bandpass / bandreject
   - 可調整filtr slope 以及 cutoff 值
 
@@ -31,9 +31,11 @@ Version: 1.0.0
   - Attack / Decay / Sustain 
 
  
-- 含有 Master 音量調整** 與 Fine Tune 音高微調
+- 含有 Master音量調整 與 Fine Tune 音高微調
  
 - 支援 **波形圖** 與 **ADS音量曲線**
+
+- 下方即時鍵盤顯示器，顯示正在彈奏的音
 
 *UI預覽:*
 <a href="https://ibb.co/LDsz0tn5"><img src="https://i.ibb.co/kVPgG8Q1/2025-04-16-5-20-01.png" alt="2025-04-16-5-20-01" border="0"></a>
